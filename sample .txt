@@ -1,0 +1,11 @@
+# Check current repository status
+git status
+
+# Show commit history
+git log
+
+# Show one-line commit history
+git log --oneline
+
+# Show last 3 commits
+git log -3
