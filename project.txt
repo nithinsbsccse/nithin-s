@@ -1,0 +1,33 @@
+# Step 1: Fork the repository on GitHub
+# Open GitHub repository in browser
+# Click "Fork" button
+
+# Step 2: Clone your forked repository
+git clone https://github.com/your-username/repository-name.git
+
+# Step 3: Move into project folder
+cd repository-name
+
+# Step 4: Create a new branch
+git checkout -b my-changes
+
+# Step 5: Edit file / make changes
+echo "New update" >> file.txt
+
+# Step 6: Check changes
+git status
+
+# Step 7: Add changes
+git add .
+
+# Step 8: Commit changes
+git commit -m "Added new update"
+
+# Step 9: Push branch to GitHub
+git push origin my-changes
+
+# Step 10: Create Pull Request
+# Go to your forked repo on GitHub
+# Click "Compare & pull request"
+# Add title and description
+# Click "Create pull request"
